@@ -1,3 +1,12 @@
+
+# 2014 Nate Miller
+
+#This basic R function calculated oxygen saturation values for natural waters
+#in units of umole O2/L, mg O2/L, torr, mbar, and kPa from user supplied values 
+#of salinity, temperature (degrees C), atmospheric pressure (mbar), and desired
+#saturation state.
+
+
 O2.saturation<-function(salinity, temp, measured.atmP, perc.sat) {
   
   a=4.9e1
